@@ -1,0 +1,30 @@
+# Build outputs
+*.obj
+*.out
+*.map
+
+# SysConfig generated (ti_msp_dl_config.c/.h committed for customer reference)
+**/ticlang/device.opt
+**/ticlang/device_linker.cmd
+**/ticlang/device.cmd.genlibs
+**/ticlang/Event.dot
+
+# CCS
+.cproject
+.project
+.ccsproject
+.settings/
+Debug/
+Release/
+
+# VS Code (keep shared tasks.json)
+.vscode/*
+
+# IAR
+*.eww
+*.ewp
+*.ewd
+settings/
+
+# Claude
+.claude/
